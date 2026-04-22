@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { TrainingItem } from "./content";
+import { IoIosFlash } from "react-icons/io";
 
 type Props = {
   item: TrainingItem;
@@ -33,7 +34,7 @@ export default function TrainingCard({ item, index }: Props) {
               key={feature}
               className="flex items-center gap-3 text-sm text-gray-700"
             >
-              <span className="text-[#4A154B] rotate-45">✦</span>
+              <span className="text-[#4A154B] "><IoIosFlash /></span>
               {feature}
             </li>
           ))}
