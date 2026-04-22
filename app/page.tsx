@@ -6,10 +6,10 @@ import TrainingSection from "./components/TrainingSection/TrainingSection";
 import ManagementProgram from "./components/ManagementProgram/ManagementProgram";
 import TransformationHub from './components/TransformationHub';
 import ConsultantTraining from "./components/ConsultantTraining";
-import CallToAction from "./components/CallToAction/CallToAction";
+import CallToAction from "./components/CallToAction/CallToActionfield";
 import TestimonialSlider from "./components/Testimonials/TestimonialSlider";
-
-
+import CTASection  from "./components/CTASection/CTASection";
+import Footer from "./components/Foooter/Footer";
 
 export default function Home() {
   return (
@@ -21,14 +21,10 @@ export default function Home() {
       <ManagementProgram />
       <TransformationHub />
       <ConsultantTraining />
-      <CallToAction 
-        title="Want to accelerate professional growth and development at your organisation?"
-        subtitle="See how we can help."
-        buttonText="Book a Consultation"
-        href="/contact"
-        variant="banner"
-      />
+      <CallToAction />
       <TestimonialSlider />
+      <CTASection />  
+      <Footer />
     </div>
   );
 }
