@@ -7,6 +7,9 @@ import ManagementProgram from "./components/ManagementProgram/ManagementProgram"
 import TransformationHub from './components/TransformationHub';
 import ConsultantTraining from "./components/ConsultantTraining";
 import CallToAction from "./components/CallToAction/CallToAction";
+import TestimonialSlider from "./components/Testimonials/TestimonialSlider";
+
+
 
 export default function Home() {
   return (
@@ -25,6 +28,7 @@ export default function Home() {
         href="/contact"
         variant="banner"
       />
+      <TestimonialSlider />
     </div>
   );
 }

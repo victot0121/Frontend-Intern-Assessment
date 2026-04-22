@@ -44,8 +44,8 @@ export default function TransformationHub() {
           </div>
 
           {/* Right: Features and CTA */}
-          <div className="w-full lg:w-1/2 flex flex-col gap-8 bg-[#faaab233] mt-7">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7">
+          <div className="w-full lg:w-1/2 flex flex-col gap-8 bg-[#faaab233] mt-7 px-x">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7 px-3">
               {HUB_FEATURES.map((feature) => (
                 <div 
                   key={feature.label}
