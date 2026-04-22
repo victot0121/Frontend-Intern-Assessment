@@ -22,8 +22,8 @@ export default function CallToAction({
         flex flex-col items-center justify-center text-center
         transition-all duration-300
         ${variant === 'banner' 
-          ? 'py-10 px-6 md:py-16'
-          : 'py-16 px-10 max-w-2xl' 
+          ? 'py-10 px-6 md:py-16'//desktop screen 
+          : 'py-16 px-10 max-w-2xl' //mobile screen
         }
       `}>
         <h2 className="text-xl md:text-1xl lg:text-1xl font-semibold mb-4 w-full leading-snug">
