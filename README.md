@@ -1,41 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# Frontend Intern Assessment
 
-First, run the development server:
+This project is a pixel-perfect implementation of a Figma design using Next.js (App Router) and Tailwind CSS. It was built as part of a Frontend Intern assessment to demonstrate the ability to translate UI designs into clean, responsive, and production-ready code.
 
-```bash
+---
+
+## 🔗 Live Project
+
+[https://frontend-intern-assessment-blue.vercel.app/](https://frontend-intern-assessment-blue.vercel.app/)
+
+---
+
+## 📁 GitHub Repository
+
+[https://github.com/victot0121/Frontend-Intern-Assessment](https://github.com/victot0121/Frontend-Intern-Assessment)
+
+---
+
+## 🛠️ Tech Stack
+
+* Next.js (App Router)
+* Tailwind CSS
+* TypeScript
+* next/image (for image optimization)
+* next/font (for font optimization)
+
+---
+
+## 🎯 Features & Requirements Covered
+
+### ✅ Project Setup
+
+* Initialized with create-next-app (latest version)
+* App Router used
+* Tailwind CSS properly configured
+
+### ✅ Figma Fidelity
+
+* Layout, spacing, colors, and typography closely match the design
+
+### ✅ Responsive Design
+
+* Mobile (425px)
+* Tablet (768px)
+* Desktop (1280px+)
+* Used Tailwind responsive utilities (sm:, md:, lg:)
+
+### ✅ Component Structure
+
+* Reusable components inside /components
+* No monolithic page file
+
+### ✅ Semantic HTML & Accessibility
+
+* Proper HTML tags (main, section, nav, footer)
+* Images include alt text
+* Buttons and links are accessible
+
+### ✅ Deployment
+
+* Deployed on Vercel and publicly accessible
+
+---
+
+## 📐 Figma Design
+
+[https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1)
+
+---
+
+## ⚙️ Setup Instructions
+
+Clone the repository:
+git clone [https://github.com/victot0121/Frontend-Intern-Assessment.git](https://github.com/victot0121/Frontend-Intern-Assessment.git)
+
+Go into the project:
+cd Frontend-Intern-Assessment
+
+Install dependencies:
+npm install
+
+Run the app:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
+[http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Design Decisions & Assumptions
 
-## Learn More
+* Used only Tailwind CSS (no other frameworks)
+* Followed a mobile-first approach
+* Broke UI into reusable components
+* Used Next.js Image for optimization
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚠️ Known Issues
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Minor spacing differences may occur due to browser rendering
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤖 AI Usage Disclosure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-'
+AI tools (Copilot) were used for guidance, debugging, and structuring. Final implementation and decisions were done manually.
 
+---
 
+## 📌 Author
 
+Victor Chika
 
+---
