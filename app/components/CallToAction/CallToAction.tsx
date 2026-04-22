@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa'; 
 
 interface CTAProps {
   title: string;
@@ -23,8 +22,8 @@ export default function CallToAction({
         flex flex-col items-center justify-center text-center
         transition-all duration-300
         ${variant === 'banner' 
-          ? 'py-10 px-6 md:py-16' // Wide style (r40)
-          : 'py-16 px-10 max-w-2xl' // Focused box style (r41)
+          ? 'py-10 px-6 md:py-16'
+          : 'py-16 px-10 max-w-2xl' 
         }
       `}>
         <h2 className="text-xl md:text-1xl lg:text-1xl font-semibold mb-4 w-full leading-snug">
@@ -42,7 +41,6 @@ export default function CallToAction({
           className="inline-flex items-center gap-3 bg-white text-[#5C164E] px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors group"
         >
           {buttonText}
-          <FaArrowRight className="text-sm transition-transform group-hover:translate-x-1" />
         </Link>
       </div>
     </section>
